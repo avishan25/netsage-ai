@@ -1,0 +1,10 @@
+{
+  "model": "claude-sonnet-4-6",
+  "max_tokens": 1000,
+  "confidence_threshold_for_auto_flag": 0.6,
+  "prompt_file": "prompts/diagnose_prompt.md",
+  "cases_file": "data/cases.csv",
+  "audit_log_csv": "docs/audit_log.csv",
+  "audit_log_md": "docs/model_audit_log.md",
+  "human_review_actions": ["Approve & Deploy", "Edit Commands", "Reject"]
+}
