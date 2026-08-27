@@ -40,7 +40,7 @@ This opens a browser tab at `http://localhost:8501`. That's your
 
 1. **Diagnose a Case tab** → pick a case (e.g. `NET-001`) from the dropdown.
    You'll see the symptom, topology note, and raw `show` command output.
-2. Click **▶️ Run Diagnosis**. The system:
+2. Click  Run Diagnosis. The system:
    - First runs `checker.py` (deterministic regex rules). All 30 of your
      current cases are matched here — instant, free, 100% reproducible.
    - If a *new* case you add isn't matched by any rule, it automatically
@@ -48,10 +48,10 @@ This opens a browser tab at `http://localhost:8501`. That's your
 3. Review the **root cause, OSI layer, confidence, evidence, next command,
    and fix steps**. You can edit the fix steps text box before deciding.
 4. Click one of:
-   - **✅ Approve & Deploy** — you agree with the diagnosis as-is.
-   - **✏️ Edit Commands & Deploy** — you agree with the root cause but
+   - Approve & Deploy** — you agree with the diagnosis as-is.
+   - Edit Commands & Deploy** — you agree with the root cause but
      changed something in the fix steps. Add a reviewer note explaining why.
-   - **❌ Reject (False Positive)** — the diagnosis was wrong. Add a note.
+   - Reject (False Positive)** — the diagnosis was wrong. Add a note.
 5. Every decision is logged to `docs/audit_log.csv`. Edited/Rejected
    decisions are also appended to `docs/model_audit_log.md` automatically —
    **that's your "Responsible AI log"**. Do this for at least 5 different
