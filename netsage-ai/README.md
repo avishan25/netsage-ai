@@ -88,7 +88,7 @@ to get a real AI diagnosis, set up a key:
 **Never commit or share your `.env` file** — it contains your private key.
 The `.env.example` file is safe to share; `.env` is not.
 
-In the dashboard, there's a checkbox "🤖 Also run AI (LLM) diagnosis" above
+In the dashboard, there's a checkbox "Also run AI (LLM) diagnosis" above
 the Run Diagnosis button — untick it if you only want the rule engine (e.g.
 to save API cost while testing).
 
