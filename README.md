@@ -11,7 +11,7 @@ reasoning and a Human-in-the-Loop review process.
 
 ---
 
-## 🚀 Overview
+## Overview
 
 Network troubleshooting often requires analyzing symptoms, topology information,
 Cisco `show` command outputs, and configuration details to identify the actual
